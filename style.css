@@ -50,7 +50,7 @@
 
   .profile-container img{
     border-radius: 50%;
-    width: 15%;
+    width: 40px;
   }
 
   .content{
@@ -93,4 +93,17 @@
   .drawers-img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+
+  @media only screen and (min-width: 768px) {
+   main{
+    display: flex;
+    max-width: 50%;
+   }
+
+   .drawers-img{
+    height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+   }
   }
