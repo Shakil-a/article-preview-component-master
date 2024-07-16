@@ -16,6 +16,13 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--Light-Grayish-Blue);
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
   }
  
   img, picture, video, canvas, svg {
@@ -30,4 +37,60 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
+
+  .profile-container{
+    display: flex;
+  }
   
+  main{
+    max-width: 90%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .profile-container img{
+    border-radius: 50%;
+    width: 15%;
+  }
+
+  .content{
+    padding: 25px;
+  }
+
+  .para-bold{
+    font-size: 1.4em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+  }
+  
+  .para-light{
+    font-weight: 500;
+    margin-bottom: 2em;
+    color: var(--Desaturated-Dark-Blue);
+  }
+
+  .share-icon{
+    margin-left: auto;
+    padding: 10px;
+    background: var(--Light-Grayish-Blue);
+  }
+
+  .name-bold{
+    color: var(--Very-Dark-Grayish-Blue);
+    font-weight: 700;
+  }
+
+  .date-light{
+    color: var(--Desaturated-Dark-Blue);
+    font-weight: 500;
+  }
+
+  .profile-container-content{
+    margin-left: 1em;
+  }
+
+  .drawers-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
