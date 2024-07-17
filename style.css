@@ -138,4 +138,12 @@
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
    }
+
+   .share-popup{
+    position: absolute;
+    padding: 10px;
+    bottom: 45vh;
+    right: 40vh;
+    border-radius: 10px;
+   }
   }
