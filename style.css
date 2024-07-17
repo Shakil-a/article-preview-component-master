@@ -95,6 +95,38 @@
     border-top-right-radius: 10px;
   }
 
+  .share-popup{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .social-media-icons{
+    display: flex;
+    gap: 1.5em;
+  }
+
+  .share-popup p{
+    font-size: 1.2em;
+    letter-spacing: 0.4em;
+    margin-right: 1.5em;
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+  }
+
+  .popup-share-icon{
+    border-radius: 50%;
+    width: 40px;
+    margin-left: auto;
+    padding: 10px;
+    background-color: var(--Desaturated-Dark-Blue);
+  }
+
+  
   @media only screen and (min-width: 768px) {
    main{
     display: flex;
